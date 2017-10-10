@@ -1,0 +1,49 @@
+.main-header {
+  padding: 25px 0;
+
+  .wrapper {
+    @include clearfix;
+    padding: 0 50px;
+  }
+}
+h1.logo {
+  float: left;
+  width: 80px;
+  margin: 10px 0;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  text-indent: -10000px;
+  color: transparent;
+}
+
+.main-nav {
+  float: right;
+
+  &__title {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    text-indent: -10000px;
+    color: transparent;
+  }
+
+  .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #3b3b3b;
+    font-size: 16px;
+    @include clearfix;
+
+    &__item {
+      float: left;
+    }
+
+    &__link {
+      display: block;
+      padding: 15px 25px;
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}

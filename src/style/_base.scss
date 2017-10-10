@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*custom base*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-primary;
+  font-weight: 400;
+  font-size: 16px;
+  color: $text-color;
+  background-color: $body-bg;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
